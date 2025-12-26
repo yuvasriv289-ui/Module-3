@@ -53,7 +53,7 @@ print("Words without 'e':", l1)
 ## Result
 Thus the program executed successfully.
 
-# Module-3
+
 # 🧹 Strings-Remove Nth Index Character from a String
 
 ## 🎯 Aim
@@ -82,6 +82,58 @@ palindrome(string)
 ```
 ## Output
 <img width="777" height="127" alt="IMG13" src="https://github.com/user-attachments/assets/2727946e-0b9b-4142-b57f-dfe5a1e37bfb" />
+
+## Result
+Thus the program executed successfully.
+
+# Strings-Palindrome Check in Python (Without Built-in Functions)
+
+## 🎯 Aim
+To write a Python program to check whether the string `"google"` is a **palindrome** or not, without using built-in palindrome checking functions.
+
+## 🧠 Algorithm
+1. Assign the string `"google"` to a variable.
+2. Reverse the string manually using slicing (`[::-1]`).
+3. Compare the original string with the reversed string.
+   - If they are equal, print that the string is a palindrome.
+   - Otherwise, print that it is not a palindrome.
+4. Execute the program.
+
+## 🧾 Program
+```
+n=int(input())
+def remove(a):
+    for i in range(0,len(a)):
+        if(i!=n):
+            print(a[i],end='')
+```
+
+## Output
+<img width="652" height="193" alt="IMG14" src="https://github.com/user-attachments/assets/45228b47-b357-4e8f-bebd-de8349a24ef3" />
+
+## Result
+Thus the program executed successfully.
+
+# Tuple in Python: Check Element Existence
+
+## 🎯 Aim
+To write a Python program that checks if the element `'n'` and the element `8` exist within a given tuple.
+
+## 🧠 Algorithm
+1. Define a tuple `x` with some letters and numbers.
+2. Use the `in` operator to check if the string `'n'` exists within the tuple.
+3. Use the `in` operator to check if the integer `8` exists within the tuple.
+4. Print the results.
+
+## 🧾 Program
+```
+tuplex = input()
+print("n" in tuplex)
+print("8" in tuplex)
+```
+## Output
+
+<img width="753" height="237" alt="image" src="https://github.com/user-attachments/assets/d3395c83-9afd-4839-a47d-e67a0be6b810" />
 
 ## Result
 Thus the program executed successfully.
